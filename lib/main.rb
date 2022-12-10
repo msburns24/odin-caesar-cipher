@@ -1,4 +1,4 @@
-def caesarCipher(string, shift)
+def caesar_cipher(string, shift)
   # Define local variables
   alphabet = "abcdefghijklmnopqrstuvwxyz"
   lowerLets = alphabet.split('')
@@ -21,9 +21,4 @@ def caesarCipher(string, shift)
     end
   end
   returnString
-end
-
-(26..51).each do |i|
-  phrase = "Hi, my name is Matt!"
-  puts caesarCipher(phrase, i)
 end
